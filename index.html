@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./swiper/swiper.css" />
+    <script src="./swiper/swiper.js"></script>
     <title>Document</title>
 </head>
 
@@ -149,19 +151,19 @@
                     <ul class="text normaltext">
                         <li>Проконсультирую по выбору капкейков и придумаю нестандартную идею</li>
                         <li>Приготовлю капкейки для вашего события, которые обязательно всем понравятся</li>
-                        <li>Аккуратно и красиво всё упакую, если вы хотите сделать приятный подарок</li>                        
+                        <li>Аккуратно и красиво всё упакую, если вы хотите сделать приятный подарок</li>
                     </ul>
                     <div class="photo__upload">
                         <a href="#" class="button"> Загрузить фотографию </a>
                     </div>
                 </div>
-                    <div class="photo__image-container">
-                        <img src="img/woman.png" alt="" class="photo__image">
-                        <div class="photo__name">
-                            <div class="photo__name-item photo__name-item--main"><span>Юлия Кондратьева</span></div>
-                            <div class="photo__name-item"><span>ВАШ КОНДИТЕР</span></div>
-                        </div>
+                <div class="photo__image-container">
+                    <img src="img/woman.png" alt="" class="photo__image">
+                    <div class="photo__name">
+                        <div class="photo__name-item photo__name-item--main"><span>Юлия Кондратьева</span></div>
+                        <div class="photo__name-item"><span>ВАШ КОНДИТЕР</span></div>
                     </div>
+                </div>
             </div>
         </section>
         <section class="reviews container">
@@ -169,37 +171,48 @@
                 <h1 class="text bold"></h1>
                 <div class="">
                     <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-      </div>
-    </div>
-    <div class="swiper-pagination"></div>
-  </div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/woman.png" alt="" class="">
+                                <p class="">
+
+«Заказала капкейки, как подарок на новый год. Делать заказ было легко и приятно, ну а результат дико порадовал, друзья были в восторге. И оформление, и на вкус капкейки были просто замечательные. Обязательно буду заказывать еще)) Уже строю планы, чтобы попробовать все начинки. Они восхитительны!) Даже кушать было жалко, такая красота!)</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="" alt="" class="">
+                                <p class=""></p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="" alt="" class="">
+                                <p class=""></p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="" alt="" class="">
+                                <p class=""></p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="" alt="" class="">
+                                <p class=""></p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="" alt="" class="">
+                                <p class=""></p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="" alt="" class="">
+                                <p class=""></p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="" alt="" class="">
+                                <p class=""></p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="" alt="" class="">
+                                <p class=""></p>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     <div class="">
                         <button class=""></button>
                         <button class=""></button>
@@ -212,23 +225,23 @@
     </main>
     <footer></footer>
     <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  </script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
 </body>
 
 </html>
