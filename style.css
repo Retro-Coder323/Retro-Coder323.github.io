@@ -254,3 +254,43 @@ li::marker {
 .reviews {
     background: linear-gradient(90deg, rgb(0, 0, 10), rgb(15, 15, 70));
 }
+.swiper-slide {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 37px;
+}
+.swiper-review {
+    display: flex;
+}
+.swiper-text-content {
+    flex-basis: 50%;
+}
+.swiper-text {
+    line-height: 1.7;
+}
+.swiper-profile {
+    align-content: center;
+    flex-basis: 50%;
+}
+.swiper-profile * {
+    text-align: center;
+}
+.swiper-image {
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+.swiper-title {
+    font-size: 30px;
+}
+.swiper-link {
+    text-decoration: underline;
+}
+.swiper-name {
+    font-size: 30px;
+}
+.swiper-address {
+    color: gray;
+}
