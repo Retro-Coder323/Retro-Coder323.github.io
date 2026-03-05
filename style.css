@@ -279,7 +279,7 @@ li::marker {
 }
 .swiper-profile {
     align-content: center;
-    flex-basis: 40%;
+    flex: 0 0 40%;
 }
 .swiper-profile * {
     text-align: center;
