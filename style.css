@@ -257,13 +257,17 @@ li::marker {
 .swiper-slide {
     background: white;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding: 37px;
+    margin: 50px;
 }
 .swiper-review {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.quotation-mark {
+    max-width: 40px;
 }
 .swiper-text-content {
     flex-basis: 50%;
@@ -286,7 +290,7 @@ li::marker {
     font-size: 30px;
 }
 .swiper-link {
-    text-decoration: underline;
+    text-decoration: underline dashed;
 }
 .swiper-name {
     font-size: 30px;
