@@ -329,9 +329,9 @@ li::marker {
 
 .cake-photos {
     padding-top: 150px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(clamp(320px, 50%, 500px), 1fr));
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(clamp(320px, 50%, 500px), 1fr));
+    gap: 20px;
 }
 
 .cake-photos__item {
