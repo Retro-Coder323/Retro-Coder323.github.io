@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./swiper/swiper.css" />
     <link rel="stylesheet" href="style.css">
     <script src="./swiper/swiper.js"></script>
+    <script src="script.js"></script>
     <title>Сладкий сундук</title>
 </head>
 
@@ -154,7 +155,12 @@
                         <li>Аккуратно и красиво всё упакую, если вы хотите сделать приятный подарок</li>
                     </ul>
                     <div class="photo__upload">
-                        <a href="#" class="button"> Загрузить фотографию </a>
+                        <form method="post" enctype="multipart/form-data">
+                        	<label class="input-file">
+                        	   	<input type="file" name="file">
+                         	   	<span class="input-file-btn button"> Загрузить фотографию </span>           
+                         	</label>
+                        </form>
                     </div>
                 </div>
                 <div class="photo__image-container">
@@ -275,11 +281,16 @@
                     <p class="text swiper-title">Чтобы сделать заказ, укажите ваш телефон</p>
                     <p class="text-dark swiper-text">Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания</p>
                     <div class="container-input">
-                        <label class="label-input">
+                        <label class="label-input phone-number">
                             <input type="text" class="input" />
                         </label>
-                        <a class="button">Сделать заказ</a>
                     </div>
+                    <div class="container-input">
+                        <label class="label-input request">
+                            <input type="text" class="input" />
+                        </label>
+                    </div>
+                    <a class="button">Сделать заказ</a>
                     <label>
                         <input type="checkbox">
                         <span>Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных</span>
